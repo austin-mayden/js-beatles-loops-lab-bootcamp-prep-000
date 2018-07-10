@@ -1,7 +1,7 @@
-function theBeatlesPlay (musicians, instruments) {
+function theBeatlesPlay(musicians, instruments) {
   var musicianString;
   var musicianInstrument=[];
-  for (var i = o; i < musicians.length; i++) {
+  for (var i = 0; i < musicians.length; i++) {
     musicianString = musicians[i] + 'plays ' + instruments[i];
     musicianInstrument[i]=musicianString;
   }
@@ -15,7 +15,13 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 function johnLennonFacts (facts) {
-
+  var i = 0;
+  var newArray[];
+  while(facts.Arrary.length > i) {
+    newArray.push(`${factsArray[i]} = "!!!"`);
+    i++;
+  }
+  return newArray;
 }
 
 function iLoveTheBeatles (number) {
