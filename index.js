@@ -17,12 +17,13 @@ const facts = [
 function johnLennonFacts(factsArray) {
   var i = 0;
   var newArray=[];
-  while(facts.length > i) {
+  while(factsArray.length > i) {
     newArray.push(`${factsArray[i]}` + "!!!");
     i++;
   }
   return newArray;
 }
+
 
 function iLoveTheBeatles(number) {
   var strings=[];
